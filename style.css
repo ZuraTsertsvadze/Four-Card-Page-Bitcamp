@@ -6,11 +6,12 @@
 }
 
 body {
-
+height:100vh;
   display: grid;
   grid-template-rows: auto auto;
   grid-template-rows: auto;
   justify-content: center;
+   align-content: center;
 }
 
 main {
