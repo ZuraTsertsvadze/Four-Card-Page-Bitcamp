@@ -6,10 +6,10 @@
 }
 
 body {
-height:100vh;
+
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-rows: auto;
+
   justify-content: center;
    align-content: center;
 }
@@ -293,7 +293,15 @@ header p {
   border-top-left-radius: 0.5rem;
 }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 768px) {
+  
+  body{
+    height:100vh;
+  
+  
+  }
+  
+  
   header p {
     width: 41.875rem;
   }
@@ -307,6 +315,7 @@ header p {
 
 @media screen and (min-width: 1440px) {
   body {
+    height:100vh;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     justify-content: center;
