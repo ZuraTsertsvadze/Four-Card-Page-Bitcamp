@@ -6,12 +6,12 @@
 }
 
 body {
+  padding-top: 5.3125rem;
+  padding-bottom: 4.875rem;
 
   display: grid;
   grid-template-rows: auto auto;
-
   justify-content: center;
-   align-content: center;
 }
 
 main {
@@ -294,14 +294,6 @@ header p {
 }
 
 @media screen and (min-width: 768px) {
-  
-  body{
-    height:100vh;
-  
-  
-  }
-  
-  
   header p {
     width: 41.875rem;
   }
@@ -315,11 +307,11 @@ header p {
 
 @media screen and (min-width: 1440px) {
   body {
-    height:100vh;
+    place-items: center;
+    padding: 5rem 0rem;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     justify-content: center;
-    align-items: baseline;
   }
 
   main {
@@ -362,17 +354,14 @@ header p {
     height: 15.625rem;
   }
 
-header div{
+  header div {
     font-style: normal;
-font-weight: 275;
-font-size: 2.25rem;
-line-height: 3.375rem;
+    font-weight: 275;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
 
-
-letter-spacing: 0.0156rem;
-
-}
-
+    letter-spacing: 0.0156rem;
+  }
 
   header p {
     width: 33.75rem;
@@ -384,25 +373,16 @@ letter-spacing: 0.0156rem;
     flex-direction: column;
   }
 
-
   header h1 {
     margin-bottom: 0.875rem;
     font-style: normal;
-font-weight: 600;
-font-size: 2.25rem;
-line-height: 3.375rem;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
 
-
-text-align: center;
-letter-spacing: 0.0156rem;
-
-
- 
+    text-align: center;
+    letter-spacing: 0.0156rem;
   }
-
-
-
-
 
   .cayen p {
     padding-left: 2rem;
